@@ -1,0 +1,69 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #ededed;
+    font-weight: 400;
+}
+
+.container {
+    width: 400px;
+    margin: 10px auto;
+    background-color: #fff; 
+}
+
+.logo-img{
+    width: 120px;
+}
+
+.user-img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* margin acting wierd */
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom:1px #c6c6c6 solid ;
+    margin-bottom: 0;
+}
+
+.user-card {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.user-info p {
+    margin: 0;
+}
+
+.bold-weight {
+    font-weight: 700;
+}
+
+.user-info {
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.post {
+    width: 100%;
+}
+
+.icon-imgs {
+    width: 25px;
+    display: inline-block;
+    padding: 5px 5px 0;
+}
+
+.reaction-section {
+    padding-left: 10px;
+}
+
+.divider {
+    width: 100%;
+    height: 30px;
+    background-color: #dfdddd;
+}
